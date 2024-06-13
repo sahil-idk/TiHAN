@@ -94,7 +94,7 @@ export function Dashboard() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="name">Current Count</Label>
-            <Input id="name" type='number' placeholder="Enter Current Count" />
+            <Input id="name" value={45} type='number' placeholder="Enter Current Count" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="email">Count Prediction</Label>
@@ -123,7 +123,7 @@ export function Dashboard() {
       <div className="bg-white rounded-lg shadow-lg p-6 border-black border-2 dark:bg-gray-950">
         <div className="mb-4">
           <h2 className="text-2xl font-bold">Count Readings</h2>
-          <p className="text-gray-500 dark:text-gray-400">A list of all count predictions in the system.</p>
+          <p className="text-gray-500 dark:text-gray-400">A list of Traffic flow count in the system.</p>
         </div>
         <Table>
           <TableHeader>
